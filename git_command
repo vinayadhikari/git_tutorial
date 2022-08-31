@@ -1,0 +1,18 @@
+Configuring Git
+> git config --global user.name "vinay"
+> git config --global user.email "vadhikary@gauselmann.com"
+
+Display Configuration
+> git config --list
+> git config user.name
+> git config user.email
+
+Creating git directory
+> git init
+
+Creating remote repo
+> create a git repo first in git hub using add icon.
+Add the remote repo using below command
+> git remote add origin https://github.com/vinayadhikari/git_tutorial.git
+Check the remote repo
+> git remote
