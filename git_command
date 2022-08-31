@@ -16,3 +16,14 @@ Add the remote repo using below command
 > git remote add origin https://github.com/vinayadhikari/git_tutorial.git
 Check the remote repo
 > git remote
+Adding permission in remote repo for push
+- Generate SSH key type below commad
+> ssh-keygen -t rsa -b 4096 -C "vadhikary@gauselmann.com"
+- copy the generating 
+-  go to github account settings
+-  go to SSH and GPG keys
+-  click new SSH key
+- paste the generating key
+Pushing all your files in git repo
+> git push -u origin master
+
