@@ -9,6 +9,10 @@ Display Configuration
 
 Creating git directory
 > git init
+- linkig a remote repo
+> git remote add origin "repo url"
+- pulling files from remote repo
+> git pull origin master
 
 Creating remote repo
 > create a git repo first in git hub using add icon.
@@ -19,11 +23,22 @@ Check the remote repo
 Adding permission in remote repo for push
 - Generate SSH key type below commad
 > ssh-keygen -t rsa -b 4096 -C "vadhikary@gauselmann.com"
-- copy the generating 
+-  copy the generating 
 -  go to github account settings
 -  go to SSH and GPG keys
 -  click new SSH key
 - paste the generating key
 Pushing all your files in git repo
 > git push -u origin master
+
+Git Add/Commit/Status Commands
+- Checking current status (difference between working repo and local repo)
+> git status
+- Adding single file to the index/tracking/staging
+> git add file1.txt
+- Adding all files into index/tracking/staging
+>git add --all
+or
+> git add .
+
 
