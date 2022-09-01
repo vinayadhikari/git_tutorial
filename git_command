@@ -50,5 +50,8 @@ Creating a new Branch
 > git branch firstbranch
 - Switch between Branch
 > git checkout firstbranch
+- Branch Merging
+- checkout to branch where you want to merge
+>git merge firstbranch
 
 
