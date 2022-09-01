@@ -59,6 +59,11 @@ or
 - use below command for ist push
 > git push --set-upstream origin firstbranch
 
+Reverting changes
+>git log
+- copy the version where you want revert to
+> git checkout  400b6791 file5.txt 
+
 
 Creating a new Branch
 > git branch firstbranch
