@@ -31,7 +31,7 @@ Adding permission in remote repo for push
 Pushing all your files in git repo
 > git push -u origin master
 
-Git Add/Commit/Status Commands
+Git Add/Commit/Status/Log Commands
 - Checking current status (difference between working repo and local repo)
 > git status
 - Adding single file to the index/tracking/staging
@@ -40,5 +40,10 @@ Git Add/Commit/Status Commands
 >git add --all
 or
 > git add .
+- committing file into your local repo
+> git commit -m "adding first commit in local repo"
+> git commit -a -m "adding all file together"
+- checking logs
+> git log
 
 
