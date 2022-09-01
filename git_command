@@ -46,4 +46,9 @@ or
 - checking logs
 > git log
 
+Creating a new Branch
+> git branch firstbranch
+- Switch between Branch
+> git checkout firstbranch
+
 
