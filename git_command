@@ -43,12 +43,21 @@ or
 - committing file into your local repo
 > git commit -m "adding first commit in local repo"
 > git commit -a -m "adding all file together"
+- committing and adding changes in single command
+> git commit -a -m "committing and adding changes in single commit"
 - checking logs
 > git log
+- push files to remote repo
+- use below command for ist push
+> git push --set-upstream origin firstbranch
+
 
 Creating a new Branch
 > git branch firstbranch
 - Switch between Branch
 > git checkout firstbranch
+- Branch Merging
+- checkout to branch where you want to merge
+>git merge firstbranch
 
 
