@@ -43,7 +43,7 @@ or
 - committing file into your local repo
 > git commit -m "adding first commit in local repo"
 > git commit -a -m "adding all file together"
-- committing and adding changes in single command
+- committing and adding changes in single command (use this command if the file already in the index)
 > git commit -a -m "committing and adding changes in single commit"
 - checking logs
 > git log
